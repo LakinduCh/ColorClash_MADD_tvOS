@@ -19,9 +19,16 @@ Colour Clash is a quick, family-friendly living-room game designed for the TV an
 **Planned multiplayer:** the start menu already includes a "Multiplayer (Coming soon)" option for turn-based play on one TV.
 
 ### Similar existing apps
-_Add 2 to 3 similar apps here with a short description and how Colour Clash differs (for example, colour-matching and colour-memory games on the App Store)._
 
----
+| App | Platform | What it does | How Colour Clash differs |
+|---|---|---|---|
+| **Color Match – Color Memory Game** (Evgeny Eschenko) | iPhone | A 10-round game that shows a random colour for three seconds, then asks the player to match it as closely as possible. | Closest in rules to Colour Clash, but it is a phone game. Colour Clash is built for the TV and the Siri Remote, and gives the player a grid of lookalike shades to choose from, so it works as a shared living-room game. |
+| **Chromatch: Color game** (FEROUM Zakaria) | iPhone | A colour-memory challenge inspired by the web game dialed.gg. It scores precision using the CIELAB colour model and works offline. | A single-player phone experience. Colour Clash uses large focus-based controls for a TV, short 5-round games, and plans turn-based multiplayer on one screen. |
+| **Color Petals** (Arch Square) | Apple TV | A memory game where the player watches a sequence of coloured clovers and repeats it, with four game modes. | It is a tvOS memory game, but it tests remembering a *sequence*. Colour Clash tests remembering one exact *shade*, which needs fine colour perception and gives a graded score (0 to 100) instead of pass or fail. |
+
+**Gap Colour Clash fills:** the colour-memory games above are mostly phone apps. Colour Clash brings the "remember this exact colour" idea to Apple TV, designed for the remote, the big screen and, later, group play.
+
+_Sources: App Store listings for Color Match, Chromatch and Color Petals (checked October 2026)._
 
 ## Features
 
@@ -65,7 +72,7 @@ Color Clash/
 
 ### Requirements
 - A Mac with **Xcode 16 or later**
-- tvOS Simulator (for example **Apple TV 4K**) or a real Apple TV
+- tvOS Simulator or a real Apple TV
 
 ### Steps
 1. Clone the repository:
@@ -74,7 +81,7 @@ Color Clash/
    ```
 2. Open `Color Clash.xcodeproj` in Xcode.
 3. Select the **Color Clash** target, open the **General** tab and check:
-   - **Supported Destinations** lists **Apple TV** (remove **Mac** if present)
+   - **Supported Destinations** lists **Apple TV**
    - **Minimum Deployments** for tvOS is not higher than your simulator version
 4. Choose **Apple TV 4K** from the device menu at the top.
 5. Press **⌘R** to build and run.
