@@ -4,7 +4,7 @@ A colour-memory game for Apple TV. Memorise a colour, find it again among nine l
 
 > SE4041 Mobile Application Design and Development, Assignment 02, Part B (tvOS prototype)
 
-**Author:** _Your Name_ (_Your Student ID_)
+**Author:** B W C L Withanage(IT23403260)
 **Platform:** tvOS (SwiftUI)
 **Repository:** https://github.com/LakinduCh/ColorClash_MADD_tvOS
 
@@ -126,11 +126,6 @@ _Add value proposition, target market, revenue model and go-to-market strategy h
 
 ---
 
-## Screenshots
-
-_Add screenshots here (menu, memorise, choose, reveal, final result)._
-
----
 
 ## License
 
